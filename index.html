@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Profile-card</title>
+    <style>
+      body {
+        margin: 0;
+        padding: 0;
+        background-color: #f0d0e5;
+        height: 100vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+      .profile-container {
+        margin: 0;
+        border: 2px solid black;
+        padding: 10px 15px;
+        width: 350px;
+        box-shadow: 0px 5px 12px palevioletred;
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        align-items: center;
+        gap: 15px;
+        border-radius: 8px;
+      }
+      .profile-container h2,
+      .profile-container p {
+        margin: 0;
+        padding: 0;
+      }
+      .profile-container .profile {
+        height: 300px;
+        width: 200px;
+        object-fit: cover;
+      }
+      .profile-container button {
+        background-color: #fff;
+        padding: 10px 15px;
+        font-size: 12px;
+        font-style: italic;
+        border-radius: 5px;
+        transition: 0.3s;
+      }
+      .profile-container button:hover {
+        background-color: #f77cd4;
+        cursor: pointer;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="profile-container">
+      <img src="./IMG_9580.JPG" class="profile" alt="profile photo" />
+      <h2>Kaumudi Keshri</h2>
+      <p>Frontend learner.</p>
+      <button>Follow</button>
+    </div>
+  </body>
+</html>
